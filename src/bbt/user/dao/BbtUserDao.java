@@ -16,7 +16,7 @@ import bbt.user.bean.BbtUserBean;
  *
  */
 @Repository //通过Spring注解的方式定义一个DAO
-public class BbtUserDao {
+public class BbtUserDao{
 	
 	@Autowired //自动注入JdbcTemplate的Bean
 	private JdbcTemplate jdbcTemplate;
